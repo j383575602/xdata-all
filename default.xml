@@ -2,10 +2,9 @@
 <manifest>
   <remote  name="remote"
            alias="origin"
-           fetch=".."
-           review="git@github.com:j383575602" />
+           fetch="." />
       
-  <default revision="master"
+  <default revision="main"
            remote="remote"
            sync-j="4" />
   <project path="xdata/java" name="xdata-java" groups="java" />
