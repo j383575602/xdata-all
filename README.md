@@ -23,7 +23,28 @@ This is the xdata repo for all platforms. If you want to download single platfor
 -  xdata-dart : dart platform
 
     git@github.com:j383575602/xdata-dart.git
+    
+# Sync with repo
+   
+   1. install repo tool
+   
+      curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo <br>
+      chmod a+x ~/bin/repo
+      
+   2. modify repo url for GFW, if you are in China
+   
+      echo "export REPO_URL='https://aosp.tuna.tsinghua.edu.cn/git-repo'" >> ~/.bash_profile <br>
+      source ~/.bash_profile
+     
+   3. repo init
+   
+      repo init -u git@github.com:j383575602/xdata-all.git -b main
+      
+      
+   4. repo sync
 
+      repo sync -j4
+      
 
 # Demo
     Assume there are two classes defined with XData protocol.  User, Car
