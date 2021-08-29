@@ -91,10 +91,10 @@ This is the xdata repo for all platforms. If you want to download single platfor
 
  |order|datatype |  single |List      | Set   | StringMap|IntMap | LongMap | FloatMap |DoubleMap |
   |-----|-----|---------| ---------|--------|----------|-------|---------|----------|----------|
-  |1|**int8**|int|List\<Byte>| Set\<Byte> |Map<String,Byte>|Map<Integer,Byte>| Map<Long,Byte>|Map<Float,Byte>|Map<Double,Byte>|
-  |2|**int16**|int|List\<Short>| Set\<Short> |Map<String,Short>|Map<Integer,Short>| Map<Long,Short>|Map<Float,Short>|Map<Double,Short>|
+  |1|**int8**|byte|List\<Byte>| Set\<Byte> |Map<String,Byte>|Map<Integer,Byte>| Map<Long,Byte>|Map<Float,Byte>|Map<Double,Byte>|
+  |2|**int16**|short|List\<Short>| Set\<Short> |Map<String,Short>|Map<Integer,Short>| Map<Long,Short>|Map<Float,Short>|Map<Double,Short>|
   |3|**int32**|int|List\<Integer>|Set\<Integer>|Map<String,Integer>|Map<Integer,Integer>| Map<Long,Integer>|Map<Float,Integer>|Map<Double,Integer>|
-  |4|**int64**|int|List\<Long>|Set\<Long>|Map<String,Long>|Map<Integer,Long>| Map<Long,Long>|Map<Float,Long>|Map<Double,Long>|
+  |4|**int64**|long|List\<Long>|Set\<Long>|Map<String,Long>|Map<Integer,Long>| Map<Long,Long>|Map<Float,Long>|Map<Double,Long>|
   |5|**float32**|float|List\<Float>|Set\<Float>|Map<String,Float>|Map<Integer,Float>| Map<Long,Float>|Map<Float,Float>|Map<Double,Float>|
   |6|**float64**|double|List\<Double>|Set\<Double>|Map<String,Double>|Map<Integer,Double>| Map<Long,Double>|Map<Float,Double>|Map<Double,Double>|
   |7|**boolean**|boolean|List\<Boolean>|Set\<Boolean>|Map<String,Boolean>|Map<Integer,Boolean>| Map<Long,Boolean>|Map<Float,Boolean>|Map<Double,Boolean>
