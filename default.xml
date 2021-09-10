@@ -11,5 +11,7 @@
   <project path="xdata/oc" name="xdata-objective-c" groups="oc"/>
   <project path="xdata/javascript" name="xdata-javascript" groups="oc"/>
   <project path="xdata/dart" name="xdata-dart" groups="oc"/>
+  <project path="xdata/spring-adapter" name="xdata-spring-adapter" groups="spring"/>
+  <project path="xdata/dubbo-adapter" name="xdata-dubbo-adapter" groups="spring"/>
 
 </manifest>
