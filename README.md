@@ -24,6 +24,15 @@ This is the xdata repo for all platforms. If you want to download single platfor
 
     git@github.com:j383575602/xdata-dart.git
     
+-  spring-adapter : a dapter to spring framework
+
+    git@github.com:j383575602/xdata-spring-adapter.git
+    
+-  dubbo-adapter : a dapter to dubbo framework
+
+    git@github.com:j383575602/xdata-dubbo-adapter.git
+    
+    
 # Sync with repo
    
    1. install repo tool
